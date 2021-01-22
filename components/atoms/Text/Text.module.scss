@@ -1,0 +1,34 @@
+.title1 {
+  @apply font-bold;
+  @apply text-4xl;
+}
+
+.title2 {
+  @apply font-bold;
+  @apply text-3xl;
+}
+
+.title3 {
+  @apply font-bold;
+  @apply text-2xl;
+}
+
+.large {
+  @apply font-normal;
+  @apply text-lg;
+}
+
+.ragular {
+  @apply font-normal;
+  @apply text-base;
+}
+
+.small {
+  @apply font-light;
+  @apply text-sm;
+}
+
+.micro1 {
+  @apply font-bold;
+  @apply text-xs;
+}
