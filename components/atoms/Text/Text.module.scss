@@ -1,34 +1,39 @@
-.title1 {
-  @apply font-bold;
-  @apply text-4xl;
-}
+.text {
+  color: #484848;
 
-.title2 {
-  @apply font-bold;
-  @apply text-3xl;
-}
+  &.title1 {
+    @apply font-bold;
+    @apply text-4xl;
+    color: #484848;
+  }
 
-.title3 {
-  @apply font-bold;
-  @apply text-2xl;
-}
+  &.title2 {
+    @apply font-bold;
+    @apply text-3xl;
+  }
 
-.large {
-  @apply font-normal;
-  @apply text-lg;
-}
+  &.title3 {
+    @apply font-bold;
+    @apply text-2xl;
+  }
 
-.ragular {
-  @apply font-normal;
-  @apply text-base;
-}
+  &.large {
+    @apply font-normal;
+    @apply text-lg;
+  }
 
-.small {
-  @apply font-light;
-  @apply text-sm;
-}
+  &.ragular {
+    @apply font-normal;
+    @apply text-base;
+  }
 
-.micro1 {
-  @apply font-bold;
-  @apply text-xs;
+  &.small {
+    @apply font-light;
+    @apply text-sm;
+  }
+
+  &.micro1 {
+    @apply font-bold;
+    @apply text-xs;
+  }
 }
