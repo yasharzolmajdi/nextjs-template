@@ -12,12 +12,10 @@ function Text({ children, type }: InferProps<typeof Text.propTypes>): ReactEleme
 Text.propTypes = {
   children: PropTypes.string.isRequired,
   type: propTypeEnum(TextType),
-  jump: PropTypes.bool,
 };
 
 Text.defaultProps = {
   type: "regular",
-  jump: false,
 };
 
 export default Text;
