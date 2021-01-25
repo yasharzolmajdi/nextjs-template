@@ -16,7 +16,9 @@ class MyDocument extends Document {
   render(): JSX.Element {
     return (
       <Html>
-        <Head />
+        <Head>
+          <link href="/fonts/style.css" rel="stylesheet" />
+        </Head>
         <body>
           <Main />
           <NextScript />
