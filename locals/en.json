@@ -1,6 +1,8 @@
 {
-  "name": "English (US)",
+  "name": "English",
   "messages": {
-    "welcome": "welcome"
+    "login": "login",
+    "username": "username",
+    "password": "password"
   }
 }

@@ -1,0 +1,30 @@
+.button {
+  @apply inline-flex;
+  @apply items-center;
+  @apply px-3;
+  @apply py-2;
+  @apply border;
+  @apply border-transparent;
+  @apply text-sm;
+  @apply leading-4;
+  @apply font-medium;
+  @apply rounded-md;
+  @apply shadow-sm;
+  @apply text-white;
+  @apply bg-indigo-600;
+
+  &:hover {
+    @apply bg-indigo-700;
+  }
+
+  &:focus {
+    @apply outline-none;
+    @apply ring-2;
+    @apply ring-offset-2;
+    @apply ring-indigo-500;
+  }
+
+  span {
+    @apply text-white;
+  }
+}

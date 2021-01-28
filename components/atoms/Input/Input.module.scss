@@ -1,0 +1,15 @@
+.input {
+  @apply shadow-sm;
+  @apply block;
+  @apply w-full;
+  @apply border;
+  @apply border-gray-300;
+  @apply rounded-md;
+  @apply h-10;
+  @apply px-2;
+
+  &:focus {
+    @apply ring-indigo-500;
+    @apply border-indigo-500;
+  }
+}

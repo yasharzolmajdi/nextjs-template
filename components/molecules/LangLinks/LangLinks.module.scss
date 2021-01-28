@@ -1,0 +1,9 @@
+.langLinks {
+  @apply flex;
+  @apply w-full;
+  @apply justify-around;
+
+  .activeLink {
+    @apply font-bold;
+  }
+}

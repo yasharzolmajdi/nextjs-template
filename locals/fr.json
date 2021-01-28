@@ -1,0 +1,8 @@
+{
+  "name": "French",
+  "messages": {
+    "login": "s'identifier",
+    "username": "Nom d'utilisateur",
+    "password": "mot de passe"
+  }
+}

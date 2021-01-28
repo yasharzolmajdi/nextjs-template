@@ -27,13 +27,6 @@
 }
 
 @font-face {
-  font-family: "Airbnb Cereal Extra";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Airbnb Cereal Extra Bold"), url("/fonts/AirbnbCerealExtraBold.woff") format("woff");
-}
-
-@font-face {
   font-family: "Airbnb Cereal";
   font-style: normal;
   font-weight: 900;

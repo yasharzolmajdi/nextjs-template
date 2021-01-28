@@ -5,3 +5,10 @@
 html {
   @apply font-airbnbCereal;
 }
+
+html,
+body,
+#__next {
+  @apply w-full;
+  @apply h-full;
+}

@@ -1,9 +1,9 @@
 import classnames from "classnames";
 
 import styles from "./Text.module.scss";
-import TextType from "./TextType.enum";
+import TextType from "./TextType.type";
 
-const typeClassnames: Record<keyof typeof TextType, string> = {
+const typeClasses: Record<TextType, string> = {
   title1: styles.title1,
   title2: styles.title2,
   title3: styles.title3,
@@ -13,6 +13,6 @@ const typeClassnames: Record<keyof typeof TextType, string> = {
   micro1: styles.micro1,
 };
 
-export default function getClassnames(type: keyof typeof TextType): string {
-  return classnames(styles.text, typeClassnames[type]);
+export default function getClassnames(className: string, type: TextType): string {
+  return classnames(styles.text, typeClasses[type], className);
 }

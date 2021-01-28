@@ -1,0 +1,12 @@
+.inputGroup {
+  @apply mb-4;
+
+  label {
+    @apply mb-1;
+    @apply block;
+  }
+
+  &Text {
+    @apply capitalize;
+  }
+}

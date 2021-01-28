@@ -1,0 +1,8 @@
+{
+  "name": "Italian",
+  "messages": {
+    "login": "accesso",
+    "username": "nome utente",
+    "password": "parola d'ordine"
+  }
+}

@@ -1,37 +1,32 @@
 .text {
-  color: #484848;
+  @apply text-tundora;
+  @apply font-normal;
+  @apply text-base;
 
   &.title1 {
     @apply font-bold;
     @apply text-4xl;
-    color: #484848;
   }
-
   &.title2 {
     @apply font-bold;
     @apply text-3xl;
   }
-
   &.title3 {
     @apply font-bold;
     @apply text-2xl;
   }
-
   &.large {
     @apply font-normal;
     @apply text-lg;
   }
-
-  &.ragular {
+  &.regular {
     @apply font-normal;
     @apply text-base;
   }
-
   &.small {
     @apply font-normal;
     @apply text-sm;
   }
-
   &.micro1 {
     @apply font-bold;
     @apply text-xs;
